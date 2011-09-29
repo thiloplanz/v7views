@@ -1,0 +1,290 @@
+{'fields': { 'regAccount' : { 'fields': { 'name': { 'caption' : '登録者' } } }, 
+	'regDate' : { 'caption' : '登録日時' },
+	'_id' : { 'caption' : '管理番号' },
+	'itemData': { 'fields' :  
+    {
+        "10002": {
+            "caption": "管理番号"
+        },
+        "10003": {
+            "caption": "問合せ区分"
+        },
+        "10005": {
+            "caption": "依頼日時"
+        },
+        "10006": {
+            "caption": "元文書識別情報"
+        },
+        "10008": {
+            "caption": "問合せDB"
+        },
+        "10009": {
+            "caption": "問合せ概要"
+        },
+        "10010": {
+            "caption": "問合せ詳細"
+        },
+        "10011": {
+            "caption": "問合せ添付ファイル"
+        },
+        "10012": {
+            "caption": "問合せ状態"
+        },
+        "10013": {
+            "caption": "機能分類"
+        },
+        "10014": {
+            "caption": "顧客名／チーム名"
+        },
+        "10015": {
+            "caption": "入力担当者"
+        },
+        "10016": {
+            "caption": "緊急度"
+        },
+        "10017": {
+            "caption": "既調査内容・問合せ備考"
+        },
+        "10019": {
+            "caption": "問合せ詳細"
+        },
+        "10021": {
+            "caption": "回答完了日時"
+        },
+        "10022": {
+            "caption": "回答内容"
+        },
+        "10023": {
+            "caption": "回答者"
+        },
+        "10024": {
+            "caption": "回答添付ファイル"
+        },
+        "10025": {
+            "caption": "回答側備考"
+        },
+        "10027": {
+            "caption": "問合せ対応コスト"
+        },
+        "10030": {
+            "caption": "不具合発生原因"
+        },
+        "10031": {
+            "caption": "対応内容"
+        },
+        "10032": {
+            "caption": "バグDBリンク"
+        },
+        "10033": {
+            "caption": "対応日（予定日）"
+        },
+        "10034": {
+            "caption": "対応者"
+        },
+        "10035": {
+            "caption": "対応予想コスト"
+        },
+        "10036": {
+            "caption": "対応コスト"
+        },
+        "10037": {
+            "caption": "リリース予定版"
+        },
+        "10038": {
+            "caption": "リリース予定日"
+        },
+        "10039": {
+            "caption": "不具合混入工程"
+        },
+        "10041": {
+            "caption": "リリース名"
+        },
+        "10042": {
+            "caption": "サーバ環境"
+        },
+        "10043": {
+            "caption": "影響範囲"
+        },
+        "10044": {
+            "caption": "再現性"
+        },
+        "10045": {
+            "caption": "対応モジュール"
+        },
+        "10046": {
+            "caption": "深刻度"
+        },
+        "10047": {
+            "caption": "関連情報リンク"
+        },
+        "10048": {
+            "caption": "処理状態"
+        },
+        "10049": {
+            "caption": "経過日数"
+        },
+        "10051": {
+            "caption": "更新履歴"
+        },
+        "10052": {
+            "caption": "管理コメント"
+        },
+        "10056": {
+            "caption": "回答内容項目"
+        },
+        "10057": {
+            "caption": "問合せ概要"
+        },
+        "10058": {
+            "caption": "管理番号"
+        },
+        "10060": {
+            "caption": "既調査内容・問合せ備考"
+        },
+        "10061": {
+            "caption": "入力担当者"
+        },
+        "10063": {
+            "caption": "依頼日"
+        },
+        "10064": {
+            "caption": "回答日"
+        },
+        "10065": {
+            "caption": "問合せ添付ファイル"
+        },
+        "10066": {
+            "caption": "回答添付ファイル"
+        },
+        "10067": {
+            "caption": "回答内容"
+        },
+        "10068": {
+            "caption": "問合せ状態",
+            "possibleValues": [
+                {
+                    "default": "true",
+                    "disabled": "false",
+                    "order": "0",
+                    "caption": "新規（New）",
+                    "_id": "10"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "8",
+                    "caption": "対応済（Cope）",
+                    "_id": "11"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "9",
+                    "caption": "内部調整中（Adjust）",
+                    "_id": "13"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "10",
+                    "caption": "顧客調整中（Cust Adjust）",
+                    "_id": "14"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "11",
+                    "caption": "再依頼（Re-req）",
+                    "_id": "18"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "6",
+                    "caption": "完了（Close）",
+                    "_id": "19"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "2",
+                    "caption": "回答済（Ans）",
+                    "_id": "20"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "7",
+                    "caption": "顧客回答済み（Cust Ans）",
+                    "_id": "21"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "5",
+                    "caption": "社内回答",
+                    "_id": "22"
+                },
+                {
+                    "default": "false",
+                    "disabled": "true",
+                    "order": "1",
+                    "caption": "既読",
+                    "_id": "23"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "3",
+                    "caption": "開発解析中",
+                    "_id": "24"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "4",
+                    "caption": "一次回答",
+                    "_id": "25"
+                }
+            ]
+        },
+        "10069": {
+            "caption": "元文書識別情報"
+        },
+        "10071": {
+            "caption": "緊急度",
+            "possibleValues": [
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "0",
+                    "caption": "S",
+                    "_id": "10"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "1",
+                    "caption": "A",
+                    "_id": "11"
+                },
+                {
+                    "default": "true",
+                    "disabled": "false",
+                    "order": "2",
+                    "caption": "B",
+                    "_id": "12"
+                },
+                {
+                    "default": "false",
+                    "disabled": "false",
+                    "order": "3",
+                    "caption": "C",
+                    "_id": "13"
+                }
+            ]
+        }
+    }
+}
+}
+}

@@ -16,6 +16,7 @@
 		
 	"views" : 
 		[
+			"/v7views/sd2t/view.json",
 			"/v7views/merged/view.json"
 		]
 

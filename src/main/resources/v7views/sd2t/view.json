@@ -1,0 +1,24 @@
+{
+	'caption' : '問い合わせDB',
+	
+    'collection' :  'sd2t',
+    
+    'schema' : '/v7views/sd2t/SD2T.json',
+    
+	'columns':
+		[
+			{ 'field' : 'itemData.10068' },
+			{ 'field' :	'_id', 'link' : 'detailPage' },
+			{ 'field' :	'itemData.10071' },
+			{ 'field' : 'regAccount.name'},
+			{ 'field' :	'itemData.10057' }
+		],
+		
+	'pageSize' : 10,
+	
+	'orderBy' : {
+		'_id' : -1
+	},
+	
+}
+			
