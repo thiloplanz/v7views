@@ -1,0 +1,22 @@
+{
+	"collections":
+		{
+			"bts_"	:  "mongodb://127.0.0.1/v7db.bts31",
+			"sd2t_"  :  "mongodb://127.0.0.1/v7db.sd2t",
+			"merged"  :  "mongodb://127.0.0.1/v7db.merged",
+			"sd2t" : {
+					"collection": "merged",
+					"filter": { "binderId": 10880 }
+					},
+			"bts" : {
+					"collection": "merged",
+					"filter": { "binderId": 13543 }
+					}
+		},
+		
+	"views" : 
+		[
+			"/v7views/merged/view.json"
+		]
+
+}

@@ -1,0 +1,19 @@
+{
+	'caption' : 'merged',
+	
+    'collection' :  'merged',
+     
+	'columns':
+		[
+			{ 'field' : '_id', 'caption': '管理番号', 'link' : 'detailPage' },
+			{ 'field' : 'title', 'caption': 'タイトル' }
+		],
+		
+	'pageSize' : 10,
+	
+	'orderBy' : {
+		'_id' : -1
+	},
+	
+}
+			
